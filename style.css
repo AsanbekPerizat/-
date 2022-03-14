@@ -1,0 +1,111 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    height: 53px;
+    background-color: #7B7474;
+    align-items: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.Poisk{
+    border: none;
+    border-radius: 13px ;
+    padding: 5px 10px;
+}
+.menu{
+    color: white;
+    padding: 8px 15px;
+    background-color: #494848 ;
+    transition: 0.4s;
+}
+header a{
+    text-decoration: none;
+}
+.menu:hover{
+    background-color: white;
+    color: black;
+    padding: 12px 18px;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.pop{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 333px;
+    margin-top: 31px;
+}
+.kino{
+    background-color: #555050;
+    color: white;
+    height: 100%;
+    width: 400px;
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #494848;
+}
+.name{
+    font-size: 24px;
+    font-weight: 900;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.zhanr{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.rek{
+    color: white;
+    font-size: 36px;
+    font-weight:900 ;
+    margin-top: 72px;
+}
+.rekblock{
+    margin-top: 36px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.film{
+    width: 328px;
+    height: 320px;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 24px;
+    background-color: #555050;
+    padding-top: 10px;
+    color: white;
+    transition: 0.3s;
+}
+.film img{
+    height: 80%;
+    min-width: 90%;
+}
+.film:hover{
+    background-color: white;
+    color: black;
+
+}
+.rekblock a{
+    text-decoration: none;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    height: 406px;
+    align-items: center;
+    background-color: #7B7474;
+    font-size: 36px;
+    margin-top: 20px;
+}
